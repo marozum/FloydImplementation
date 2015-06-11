@@ -8,3 +8,7 @@ En la carpeta lib/ se encuentran las librerías (jar) requeridas.
 
 <h3>Explicación</h3>
 La explicación de la implementación, lo puedes hallar en http://marozum.zisac.com.pe
+
+<h3>Prueba</h3>
+Este proyecto fue creado con NetBeans 8.0.2 y JDK 1.7
+<br>La librería para conexión a base de datos es el conector que provee el IDE NetBeans (más detalle en http://marozum.zisac.com.pe)
