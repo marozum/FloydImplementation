@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="nodoConsultas">
+    <select id="getAllNodosMapa" resultType="javazum.uni.floyd.entity.NodoEntity">
+        SELECT id_nodo_mapa, posicion_x, posicion_y
+        FROM nodo_mapa
+    </select>
+    <select id="getAllNodosRelacionMapa" resultType="javazum.uni.floyd.entity.NodoRelacionEntity">
+        SELECT id_nodo_origen, id_nodo_destino, distancia
+        FROM nodo_relacion
+    </select>
+</mapper>
